@@ -3,46 +3,17 @@
   
 <md-layout md-gutter>
   <md-layout md-column md-flex="33" md-hide-xsmall>
-	  <md-toolbar class="md-warn">
-		<md-button class="md-icon-button" @click.native="toggleLeftSidenav">
-		  <md-icon>menu</md-icon>
-		</md-button>
+	 
+		 <md-toolbar class="md-warn">
+			<md-button class="md-icon-button" @click.native="toggleLeftSidenav">
+			  <md-icon>menu</md-icon>
+			</md-button>
 
-		<h2 class="md-title">My App</h2>
-	  </md-toolbar>
+			<h2 class="md-title">My App</h2>
+		  </md-toolbar>
   
-		<p>hola </p>
-    <md-layout md-flex="5"></md-layout>
-    <md-layout>
-		
-		
-		<md-list class="md-dense">
-			<md-list-item>
-				<md-avatar>
-					<img src="https://placeimg.com/40/40/people/5" alt="People">
-				</md-avatar>
+		<car-search></car-search>
 
-				<span>Abbey Christansen</span>
-
-				<md-button class="md-icon-button md-list-action">
-					<md-icon class="md-primary">chat_bubble</md-icon>
-				</md-button>
-			</md-list-item>
-			
-			<md-list-item>
-				<md-avatar>
-					<img src="https://placeimg.com/40/40/people/8" alt="People">
-				</md-avatar>
-
-				<span>Simon & Garfunkel</span>
-
-				<md-button class="md-icon-button md-list-action">
-					<md-icon class="md-primary">chat_bubble</md-icon>
-				</md-button>
-			</md-list-item>
-		</md-list>
-		
-	</md-layout>
   </md-layout>
 
   <md-layout md-column md-flex>
